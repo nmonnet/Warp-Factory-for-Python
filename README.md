@@ -7,4 +7,4 @@ In contrast to the approach in that study, I aim to leverage the full capabiliti
 
 I may introduce additional constraints on the physicality of the energy-momentum tensor, particularly when negative energy arises, as discussed in arXiv /9702026.
 
-At this stage, the code is more of a collection of potential applications without a clear overarching theme or direction.
+
