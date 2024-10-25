@@ -14,4 +14,6 @@ My next objective is to translate the original MATLAB code into Python. I will b
 ## Information and Disclaimer
 Most of the relevant results can be found in the notebook warp_drive_study.ipynb. The older versions are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
 
-This is a passion project that I aim to develop as rigorously as possible; however, I do not yet have extensive experience in developing large Python projects, which may affect its overall structure.
+This is a passion project that I aim to develop as rigorously as possible; however, I do not have a lot of free time and I do not yet have extensive experience in developing large Python projects, which may affect its overall structure. 
+
+Don't hesitate to leave a comment should you have any questions :) 
