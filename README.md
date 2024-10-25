@@ -1,8 +1,17 @@
-# Warp factory for Python (analytical approach)
-This code reflects my effort to reproduce the results and methodology presented in arXiv:2404.03095, albeit with some modifications. During the process, I identified numerous errors in both their paper and the accompanying code, as well as discrepancies between the two, particularly in the explanations of their examples. Consequently, I chose not to rely heavily on their work to validate my results.
+#Warp Factory for Python
+This code represents my efforts to reproduce the results and methodology presented in arXiv:2404.03095, with some modifications. During this process, I identified several errors in both the paper and the accompanying code, as well as discrepancies between the two, particularly in the explanations of their examples. As a result, I chose not to rely heavily on their work to validate my findings.
 
-In contrast to their approach, I aim to fully utilize the symbolic capabilities of SymPy and EinsteinPy to derive analytical expressions for the Einstein and Energy-momentum tensors. By minimizing dependence on numerical approximations, this method provides greater precision and flexibility in theoretical analyses at the cost of time. Therefore no numerical approximation are required to obtain the results.
+##Warp Factory for Python (Analytical Approach)
+In contrast to the authors' approach, I aim to leverage the symbolic capabilities of SymPy and EinsteinPy to derive analytical expressions for the Einstein and energy-momentum tensors. By minimizing reliance on numerical approximations, this method provides greater precision and flexibility for theoretical analyses, albeit at the cost of increased computation time. As such, no numerical approximations are needed to obtain the results.
 
-However, the program requires an analytical expression for the inputed metric and more complexe metric defined numerically are impossible to analyze unless you find a good analytical expression for them. Furthermore, the complexity of the analytical expression may radically extend the computation time.
+However, the program requires an analytical expression for the input metric. More complex metrics defined numerically cannot be analyzed unless a suitable analytical representation is found. Additionally, the complexity of the analytical expression may significantly extend computation time.
 
-This program will be used to verify the future code of "Warp factory for Python (numerical approach)"
+This program will also serve to verify the future implementation of the Warp Factory for Python (Numerical Approach).
+
+##Warp Factory for Python (Numerical Approach)
+My next objective is to translate the original MATLAB code into Python. I will begin with the simplest numerical approximations to facilitate a direct comparison of the outputs with those from the previous analytical approach.
+
+##Information and Disclaimer
+Most of the relevant results can be found in the notebook warp_drive_study.ipynb. The older versions are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
+
+This is a passion project that I aim to develop as rigorously as possible; however, I do not yet have extensive experience in developing large Python projects, which may affect its overall structure.
