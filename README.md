@@ -1,4 +1,6 @@
 # Warp Factory for Python
+Warp research has mostly used analytical methods, which often limit the exploration of new solutions. Many proposed solutions have been unrealistic, needing impossible energy levels. To address these issues, people developed Warp Factory (arXiv:2404.03095), a numerical toolkit for modeling warp drive spacetimes. Warp Factory uses numerical analysis to explore various warp drive designs by solving Einstein’s field equations and checking energy requirements. It also offers visualizations in 2D and 3D, helping to understand the metrics and their associated energy structures. Their paper discusses how Warp Factory works and its application in evaluating common warp drive models. Their goal is to advance warp drive research and get closer to creating practical warp drives.
+
 This code represents my efforts to reproduce the results and methodology presented in arXiv:2404.03095, with some modifications. During this process, I identified several errors in both the paper and the accompanying code, as well as discrepancies between the two, particularly in the explanations of their examples. As a result, I chose not to rely heavily on their work to validate my findings.
 
 ## Warp Factory for Python (Analytical Approach)
