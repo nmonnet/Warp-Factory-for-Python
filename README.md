@@ -10,8 +10,20 @@ However, the program requires an analytical expression for the input metric. Mor
 
 This program will also serve to verify the future implementation of the Warp Factory for Python (Numerical Approach).
 
+
+
+
+
+
+
 ## Warp Factory for Python (Numerical Approach)
-My next objective is to translate the original MATLAB code into Python. I will begin with the simplest numerical approximations to facilitate a direct comparison of the outputs with those from the previous analytical approach.
+The fully numerical approach employs the simplest numerical approximations to facilitate a direct comparison of its outputs with those obtained from the previous analytical method. Currently, this implementation does not include scalar quantities derived from the metric, and the code related to energy conditions remains largely similar to the earlier analytical approach.
+
+In fact, a purely analytical solution was not feasible, necessitating the use of a semi-numerical approach in the analytical code from the previous section.
+
+At present, the code is not optimized for low-memory systems. To handle high-resolution computations, we are in the process of building a computer with 256 GB of RAM (although 64 GB would typically suffice for standard resolutions).
+
+
 
 ## Information and Disclaimer
 Most of the relevant results can be found in the notebook warp_drive_study.ipynb. The older versions are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
