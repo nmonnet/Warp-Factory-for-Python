@@ -21,12 +21,12 @@ The fully numerical approach employs the simplest numerical approximations to fa
 
 In fact, a purely analytical solution was not feasible, necessitating the use of a semi-numerical approach in the analytical code from the previous section.
 
-At present, the code is not optimized for low-memory systems. To handle high-resolution computations, we are in the process of building a computer with 256 GB of RAM (although 64 GB would typically suffice for standard resolutions).
+At present, the code is not optimized for low-memory systems. To handle high-resolution computations, we are in the process of building a computer with 256 GB of RAM (although 64 GB would typically suffice for standard resolutions). Huge thanks to my friend at TechApart for the PC!
 
 
 
 ## Information and Disclaimer
-Most of the relevant results can be found in the notebook warp_drive_study.ipynb. The older versions are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
+Most of the relevant results can be found in the notebook warp_drive_study.ipynb and numerical_warp_drive.ipynb. The older versions containing number in the name are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
 
 This is a passion project that I aim to develop as rigorously as possible; however, I do not have a lot of free time and I do not yet have extensive experience in developing large Python projects, which may affect its overall structure. 
 
