@@ -31,3 +31,6 @@ Most of the relevant results can be found in the notebook warp_drive_study.ipynb
 This is a passion project that I aim to develop as rigorously as possible; however, I do not have a lot of free time and I do not yet have extensive experience in developing large Python projects, which may affect its overall structure. 
 
 Don't hesitate to leave a comment should you have any questions :) 
+
+---
+There is a mistake in the Lentz-inspired metric, in the analytical approach, I will correct it later as it's not important now. 
