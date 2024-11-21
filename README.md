@@ -26,9 +26,9 @@ At present, the code is not optimized for low-memory systems. To handle high-res
 
 
 ## Information and Disclaimer
-Most of the relevant results can be found in the notebook warp_drive_study.ipynb and numerical_warp_drive.ipynb. The older versions containing number in the name are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
+Most of the relevant results can be found in the notebook warp_drive_study.ipynb and numerical_warp_drive.ipynb. The older versions containing numbers in the name are obsolete. In warp_drive_study.ipynb, I strive to explain the differences between my work and arXiv:2404.03095, which is also available as reference_paper.pdf.
 
-This is a passion project that I aim to develop as rigorously as possible; however, I do not have a lot of free time and I do not yet have extensive experience in developing large Python projects, which may affect its overall structure. 
+This is a passion project that I aim to develop as rigorously as possible; however, I do not have a lot of free time and I do not yet have extensive experience in developing large Python projects that are user-friendly, which may affect its overall structure. 
 
 Don't hesitate to leave a comment should you have any questions :) 
 
