@@ -17,9 +17,9 @@ This program will also serve to verify the future implementation of the Warp Fac
 
 
 ## Warp Factory for Python (Numerical Approach)
-The fully numerical approach employs the simplest numerical approximations to facilitate a direct comparison of its outputs with those obtained from the previous analytical method. Currently, this implementation does not include scalar quantities derived from the metric, and the code related to energy conditions remains largely similar to the earlier analytical approach.
+The fully numerical approach employs the simplest numerical approximations to facilitate a direct comparison of its outputs with those obtained from the previous analytical method. Currently, this implementation does not include scalar quantities derived from the metric, and the code related to energy conditions remains largely similar to the earlier analytical approach. 
 
-In fact, a purely analytical solution was not feasible, necessitating the use of a semi-numerical approach in the analytical code from the previous section.
+Therefore, the results that can be truly compared between the analytical and numerical approach is the energy tensor momentum from a distant and local referential as both codes are strictly independent. The energy conditions are built from those tensors and are roughly the same code for both approaches. 
 
 At present, the code is not optimized for low-memory systems. To handle high-resolution computations, we are in the process of building a computer with 256 GB of RAM (although 64 GB would typically suffice for standard resolutions). Huge thanks to my friend at TechApart for the PC!
 
