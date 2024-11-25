@@ -34,3 +34,6 @@ Don't hesitate to leave a comment should you have any questions :)
 
 ---
 There is a mistake in the Lentz-inspired metric, in the analytical approach, I will correct it later as it's not important now and because the analytical approach is not supposed to be used in the case of the Lentz-inspired metric. 
+
+After some tests, it seems like doing all derivatives computation using a finite central limit of order $h^2$ and $h$
+ on the border is not sufficient at all to produce good results. My next objective is to implement a method of order $h^8$ and $h^6$ near the boundaries using https://en.wikipedia.org/wiki/Finite_difference_coefficient.
