@@ -33,6 +33,10 @@ This is a passion project that I aim to develop as rigorously as possible; howev
 Don't hesitate to leave a comment should you have any questions :) 
 
 ---
-There is a mistake in the Lentz-inspired metric, in the analytical approach, I will correct it later as it's not important now and because the analytical approach is not supposed to be used in the case of the Lentz-inspired metric. 
+There is a mistake in the Lentz-inspired metric, in the analytical approach, I will correct it later as it's not important now and because the analytical approach is not supposed to be used in the case of the Lentz-inspired metric. I'm currently doing a break with this project, however I already know its next steps:
+1. Clearly prove that the differences between my numerical and analytical approaches are due to numerical errors.
+2. Reproduce the results of arXiv:2405.02709 which is another paper that claims to have found a warp drive that does not break any energy conditions.
+3. I also have to read a few papers referenced by this last paper. 
+
 
 
